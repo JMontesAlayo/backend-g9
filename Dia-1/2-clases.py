@@ -17,6 +17,7 @@ class Persona:
     def saludar_cordialmente(self, nombre):
         texto = 'Hola {}, mucho gusto.'.format(nombre)
         return texto
+        
 
 
 
@@ -36,5 +37,7 @@ print(gabriela.estatura)
 jean.saludar()
 gabriela.saludar()
 
-print(jean.saludar_cordialmente())
+resultado = jean.saludar_cordialmente('gabriela')
+
+print(resultado)
 
