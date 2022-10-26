@@ -14,7 +14,14 @@ for index, alumno in enumerate(alumnos):
         continue
     print(index, alumno)
 
+for numero in range(100):
+    # print(numero)
+    pass
 
+palabra = 'Hola mundo'
+for letra in palabra:
+    print(letra)
+    
 # persona = {
 #     'nombre': 'jean', 
 #     'apellido': 'montes'
@@ -29,10 +36,10 @@ for index, alumno in enumerate(alumnos):
 # for q, a in zip(questions, answers):
 #     print('What is your {}?  It is {}.'.format(q, a))
 
-for num in range(2, 10):
-    if num % 2 == 0:
-        print("Found an even number", num)
-        continue
-    print("Found an odd number", num)
+# for num in range(2, 10):
+#     if num % 2 == 0:
+#         print("Found an even number", num)
+#         continue
+#     print("Found an odd number", num)
 
 
